@@ -1,18 +1,27 @@
 {
-  "name": "backend",
+  "name": "ai-code-reviewer",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iamsushantgautam/AI-Code-Reviewer.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iamsushantgautam/AI-Code-Reviewer/issues"
+  },
+  "homepage": "https://github.com/Iamsushantgautam/AI-Code-Reviewer#readme",
   "description": "",
   "dependencies": {
-    "@google/generative-ai": "^0.21.0",
+    "@google/generative-ai": "^0.24.1",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
   }
 }
